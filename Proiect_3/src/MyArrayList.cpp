@@ -1,5 +1,8 @@
 #include "MyArrayList.h"
 #include "Node.h"
+#include "FelPrincipal.h"
+#include "Desert.h"
+#include "Ciorba.h"
 
 using namespace std;
 
@@ -9,6 +12,32 @@ MyArrayList<T>::MyArrayList()
     this->firstNode = nullptr;
     this->lastNode = nullptr;
     this->length = 0;
+}
+
+template<class T>
+MyArrayList<T>::MyArrayList(const MyArrayList& obj)
+{
+    if(obj.length == 0)
+    {
+        this->length = 0;
+        return;
+    }
+
+    Node<T> *actualNodeInObj = obj.firstNode;
+    Node<T> *newNode = new Node<T>(actualNodeInObj->getValue());
+    this->firstNode = newNode;
+    this->lastNode = newNode;
+
+    while(actualNodeInObj->getNextNode() != nullptr)
+    {
+        actualNodeInObj = actualNodeInObj->getNextNode();
+        newNode = new Node<T>(actualNodeInObj->getValue());
+        this->lastNode->setNextNode(newNode);
+        newNode->setPreviousNode(this->lastNode);
+        this->lastNode = newNode;
+    }
+
+    this->length = obj.length;
 }
 
 template<class T>
@@ -184,5 +213,47 @@ int MyArrayList<T>::getLength()
 }
 
 
+template<class T>
+void MyArrayList<T>::copyy(MyArrayList<T>& obj)
+{
+    if(this->length != 0)          //sterge elementele din lista veche
+    {
+        Node<T> *actualNode = this->firstNode;
+        while(actualNode->getNextNode() != nullptr)
+        {
+            actualNode = actualNode->getNextNode();
+            delete actualNode->getPreviousNode();
+        }
+
+        delete this->lastNode;
+        this->firstNode = nullptr;
+        this->lastNode = nullptr;
+    }
+
+    if(obj.length == 0)
+    {
+        this->length = 0;
+        return;
+    }
+
+    Node<T> *actualNodeInObj = obj.firstNode;
+    Node<T> *newNode = new Node<T>(actualNodeInObj->getValue());
+    this->firstNode = newNode;
+    this->lastNode = newNode;
+
+    while(actualNodeInObj->getNextNode() != nullptr)
+    {
+        actualNodeInObj = actualNodeInObj->getNextNode();
+        newNode = new Node<T>(actualNodeInObj->getValue());
+        this->lastNode->setNextNode(newNode);
+        newNode->setPreviousNode(this->lastNode);
+        this->lastNode = newNode;
+    }
+
+    this->length = obj.length;
+}
+
+
 template class MyArrayList<int>;
 template class MyArrayList<string>;
+template class MyArrayList<FelPrincipal>;

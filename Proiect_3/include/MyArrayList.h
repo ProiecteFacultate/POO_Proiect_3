@@ -14,6 +14,8 @@ private:
 public:
     MyArrayList();
     ~MyArrayList();
+    MyArrayList(const MyArrayList&);
+    //nu avem operator de atribuire pt ca avem coppy, lasam atribuirea sa fie copiata bit cu bit
 
     void pushFront(T);  //adauga in dreapta
     void popFront();   //sterge din dreapta
@@ -26,6 +28,7 @@ public:
     bool isEmpty();
     void iterate();
     int getLength();
+    void copyy(MyArrayList<T>&);
 };
 
 #endif // MYARRAYLIST_H

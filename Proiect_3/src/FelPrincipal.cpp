@@ -97,9 +97,8 @@ ostream& operator<<(ostream& out, FelPrincipal& obj)
 
      for(int i = 1; i <= obj.numarIngrediente; i++)
     {
-        out<<"Ingredientul "<<i;
+        out<<"Ingredientul "<<i<<": ";
         out<<obj.ingrediente[i];
-        out<<endl;
     }
 
     out<<endl;

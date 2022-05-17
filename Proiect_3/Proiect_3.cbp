@@ -34,13 +34,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Comenzi.h" />
 		<Unit filename="include/Desert.h" />
 		<Unit filename="include/FelPrincipal.h" />
+		<Unit filename="include/Manager.h" />
 		<Unit filename="include/MyArrayList.h" />
 		<Unit filename="include/Node.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Comenzi.cpp" />
 		<Unit filename="src/Desert.cpp" />
 		<Unit filename="src/FelPrincipal.cpp" />
+		<Unit filename="src/Manager.cpp" />
 		<Unit filename="src/MyArrayList.cpp" />
 		<Unit filename="src/Node.cpp" />
 		<Extensions>
