@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1652789449 source:d:\facultate\poo\proiect_3\main.cpp
+	"MyArrayList.h"
+	<iostream>
+
+1652778717 source:d:\facultate\poo\proiect_3\src\desert.cpp
+	"Desert.h"
+	<string.h>
+
+1652778717 d:\facultate\poo\proiect_3\include\desert.h
+	<iostream>
+
+1652774286 source:d:\facultate\poo\proiect_3\src\felprincipal.cpp
+	"FelPrincipal.h"
+	<string.h>
+
+1652774255 d:\facultate\poo\proiect_3\include\felprincipal.h
+	<iostream>
+
+1652789056 source:d:\facultate\poo\proiect_3\src\node.cpp
+	"Node.h"
+
+1652784965 d:\facultate\poo\proiect_3\include\node.h
+	<iostream>
+
+1652789457 source:d:\facultate\poo\proiect_3\src\myarraylist.cpp
+	"MyArrayList.h"
+	"Node.h"
+
+1652789449 d:\facultate\poo\proiect_3\include\myarraylist.h
+	"Node.h"
+	<iostream>
+
+1652781381 d:\facultate\poo\proiect_3\include\ciorba.h
+	"Ciorba.h"
+	<string.h>
+
