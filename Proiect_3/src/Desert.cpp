@@ -34,7 +34,7 @@ Desert& Desert::operator=(Desert& obj)
 
 Desert::~Desert()
 {
-    cout<<"DESERT DELETED"<<endl;
+  //  cout<<"DESERT DELETED"<<endl;
 }
 
 istream& operator>>(istream& in, Desert& obj)

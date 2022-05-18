@@ -49,7 +49,7 @@ FelPrincipal& FelPrincipal::operator=(FelPrincipal& obj)
 
 FelPrincipal::~FelPrincipal()
 {
-    cout<<"FEL PRINCIPAL DELETED"<<endl;
+  //  cout<<"FEL PRINCIPAL DELETED"<<endl;
 }
 
 istream& operator>>(istream& in, FelPrincipal& obj)
@@ -70,9 +70,8 @@ istream& operator>>(istream& in, FelPrincipal& obj)
 
     for(int i = 1; i <= obj.numarIngrediente; i++)
     {
-        cout<<"Ingredientul "<<i;
+        cout<<"Ingredientul "<<i<<": ";
         in>>obj.ingrediente[i];
-        cout<<endl;
     }
 
     cout<<endl;
@@ -98,7 +97,7 @@ ostream& operator<<(ostream& out, FelPrincipal& obj)
      for(int i = 1; i <= obj.numarIngrediente; i++)
     {
         out<<"Ingredientul "<<i<<": ";
-        out<<obj.ingrediente[i];
+        out<<obj.ingrediente[i]<<endl;
     }
 
     out<<endl;

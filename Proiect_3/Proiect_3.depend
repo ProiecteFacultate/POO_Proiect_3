@@ -35,62 +35,68 @@
 	"Ciorba.h"
 	<string.h>
 
-1652778717 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\desert.cpp
+1652863456 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\desert.cpp
 	"Desert.h"
 	<string.h>
 
 1652778717 d:\facultate\poo\proiect3_gitrep\proiect_3\include\desert.h
 	<iostream>
 
-1652797246 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\felprincipal.cpp
+1652863456 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\felprincipal.cpp
 	"FelPrincipal.h"
 	<string.h>
 
 1652774255 d:\facultate\poo\proiect3_gitrep\proiect_3\include\felprincipal.h
 	<iostream>
 
-1652862614 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\myarraylist.cpp
+1652863456 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\myarraylist.cpp
 	"MyArrayList.h"
 	"Node.h"
 	"FelPrincipal.h"
 	"Desert.h"
 	"Ciorba.h"
 
-1652862614 d:\facultate\poo\proiect3_gitrep\proiect_3\include\myarraylist.h
+1652863031 d:\facultate\poo\proiect3_gitrep\proiect_3\include\myarraylist.h
 	"Node.h"
 	"FelPrincipal.h"
 	"Desert.h"
 	"Ciorba.h"
 	<iostream>
 
-1652862614 d:\facultate\poo\proiect3_gitrep\proiect_3\include\node.h
+1652862911 d:\facultate\poo\proiect3_gitrep\proiect_3\include\node.h
 	"FelPrincipal.h"
 	"Desert.h"
 	"Ciorba.h"
 	<iostream>
 
-1652862614 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\node.cpp
+1652863156 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\node.cpp
 	"Node.h"
 	"FelPrincipal.h"
 	"Desert.h"
 	"Ciorba.h"
 
-1652862155 source:d:\facultate\poo\proiect3_gitrep\proiect_3\main.cpp
+1652866837 source:d:\facultate\poo\proiect3_gitrep\proiect_3\main.cpp
 	"MyArrayList.h"
 	"FelPrincipal.h"
 	"Desert.h"
 	"Ciorba.h"
-	<iostream>
-
-1652791268 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\manager.cpp
 	"Manager.h"
+	<iostream>
 
-1652795991 d:\facultate\poo\proiect3_gitrep\proiect_3\include\manager.h
+1652866852 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\manager.cpp
 	"Manager.h"
+	"FelPrincipal.h"
+	"Desert.h"
+	"Ciorba.h"
+	"Comenzi.h"
+	<iostream>
+
+1652866800 d:\facultate\poo\proiect3_gitrep\proiect_3\include\manager.h
 	"MyArrayList.h"
 	"FelPrincipal.h"
 	"Desert.h"
 	"Ciorba.h"
+	<iostream>
 
 1652791268 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\restaurant.cpp
 	"Restaurant.h"
@@ -106,17 +112,15 @@
 	"Ciorba.h"
 	<string.h>
 
-1652797180 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\comenzi.cpp
+1652865391 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\comenzi.cpp
 	<iostream>
 	"Comenzi.h"
-	"Manager.h"
 	"MyArrayList.h"
 	"FelPrincipal.h"
 	"Desert.h"
 	"Ciorba.h"
 
-1652796747 d:\facultate\poo\proiect3_gitrep\proiect_3\include\comenzi.h
-	"Manager.h"
+1652865595 d:\facultate\poo\proiect3_gitrep\proiect_3\include\comenzi.h
 	"MyArrayList.h"
 	"FelPrincipal.h"
 	"Desert.h"

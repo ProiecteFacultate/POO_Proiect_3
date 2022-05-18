@@ -2,32 +2,33 @@
 #include "FelPrincipal.h"
 #include "Desert.h"
 #include "Ciorba.h"
+#include "Manager.h"
 #include <iostream>
 
 using namespace std;
 
+string comanda;
+
 int main()
 {
-    MyArrayList<int> arrayList;
+    Manager manager;
+    manager.listaComenzi();
 
-    for(int i = 0; i < 10; i++)
-        arrayList.pushFront(10 * i);
+    cin.clear();
+    cin.sync();
+    getline(cin, comanda);
 
+    while(comanda != "Inchide")
+    {
+        manager.executa(comanda);
+        cin.clear();
+        cin.sync();
+        getline(cin, comanda);
+    }
 
-    MyArrayList<int> arrayList2(arrayList);
-
-
-    arrayList.drop(2);
-
-    arrayList.iterate();
-
-    arrayList2.iterate();
-
-    FelPrincipal f1;
-    cin>>f1;
-    MyArrayList<FelPrincipal> myArrayList3;
-    myArrayList3.add(f1);
-    myArrayList3.iterate();
+    cout<<"PROCES INCHEIAT";
 
     return 0;
 }
+
+

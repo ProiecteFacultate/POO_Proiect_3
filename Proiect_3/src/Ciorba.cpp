@@ -37,7 +37,7 @@ Ciorba& Ciorba::operator=(Ciorba& obj)
 
 Ciorba::~Ciorba()
 {
-    cout<<"CIORBA DELETED"<<endl;
+   // cout<<"CIORBA DELETED"<<endl;
 }
 
 istream& operator>>(istream& in, Ciorba& obj)

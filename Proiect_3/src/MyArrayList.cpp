@@ -55,7 +55,7 @@ MyArrayList<T>::~MyArrayList()
 
     delete this->lastNode;     //in final actualNode ajunge sa indice catre acelasi nod catre care indica this->lastNode
 
-    cout<<"ARRAYLIST DELETED"<<endl;
+  //  cout<<"ARRAYLIST DELETED"<<endl;
 }
 
 
@@ -205,7 +205,7 @@ void MyArrayList<T>::iterate()
     }
 
     T value = actualNode->getValue();
-        cout<<value<<" ";
+    cout<<value<<endl;
     //cout<<actualNode->getValue()<<endl;
 }
 
@@ -260,6 +260,6 @@ void MyArrayList<T>::copyy(MyArrayList<T>& obj)
 
 template class MyArrayList<int>;
 template class MyArrayList<string>;
-template class Node<FelPrincipal>;
-template class Node<Ciorba>;
-template class Node<Desert>;
+template class MyArrayList<FelPrincipal>;
+//template class MyArrayList<Ciorba>;
+template class MyArrayList<Desert>;
