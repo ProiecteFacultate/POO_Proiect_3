@@ -261,5 +261,5 @@ void MyArrayList<T>::copyy(MyArrayList<T>& obj)
 template class MyArrayList<int>;
 template class MyArrayList<string>;
 template class MyArrayList<FelPrincipal>;
-//template class MyArrayList<Ciorba>;
+template class MyArrayList<Ciorba>;
 template class MyArrayList<Desert>;

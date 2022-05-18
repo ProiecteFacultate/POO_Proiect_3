@@ -69,5 +69,5 @@ T Node<T>::getValue()
 template class Node<int>;
 template class Node<string>;
 template class Node<FelPrincipal>;
-//template class Node<Ciorba>;
+template class Node<Ciorba>;
 template class Node<Desert>;

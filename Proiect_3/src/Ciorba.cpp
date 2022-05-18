@@ -51,7 +51,7 @@ istream& operator>>(istream& in, Ciorba& obj)
     cout<<"Este supa crema? [DA/NU]: ";
     in>>obj.isSupaCrema;
 
-    cout<<"Este ciorba? [DA/NU]: "
+    cout<<"Este ciorba? [DA/NU]: ";
     in>>obj.isCiorba;
 
     cout<<"Este ciorba de legume? [DA/NU]: ";
@@ -78,4 +78,3 @@ ostream& operator<<(ostream& out, Ciorba& obj)
     out<<"E ciorba de legume: "<<obj.isDeLegume;
     out<<endl<<endl;
 }
-

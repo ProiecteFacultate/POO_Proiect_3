@@ -14,6 +14,7 @@ int main()
     Manager manager;
     manager.listaComenzi();
 
+    cout<<"Introduceti comanda: ";
     cin.clear();
     cin.sync();
     getline(cin, comanda);
@@ -21,6 +22,7 @@ int main()
     while(comanda != "Inchide")
     {
         manager.executa(comanda);
+        cout<<"Introduceti comanda: ";
         cin.clear();
         cin.sync();
         getline(cin, comanda);

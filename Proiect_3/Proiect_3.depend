@@ -49,7 +49,7 @@
 1652774255 d:\facultate\poo\proiect3_gitrep\proiect_3\include\felprincipal.h
 	<iostream>
 
-1652863456 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\myarraylist.cpp
+1652886423 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\myarraylist.cpp
 	"MyArrayList.h"
 	"Node.h"
 	"FelPrincipal.h"
@@ -69,13 +69,13 @@
 	"Ciorba.h"
 	<iostream>
 
-1652863156 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\node.cpp
+1652886423 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\node.cpp
 	"Node.h"
 	"FelPrincipal.h"
 	"Desert.h"
 	"Ciorba.h"
 
-1652866837 source:d:\facultate\poo\proiect3_gitrep\proiect_3\main.cpp
+1652888056 source:d:\facultate\poo\proiect3_gitrep\proiect_3\main.cpp
 	"MyArrayList.h"
 	"FelPrincipal.h"
 	"Desert.h"
@@ -83,7 +83,7 @@
 	"Manager.h"
 	<iostream>
 
-1652866852 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\manager.cpp
+1652888056 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\manager.cpp
 	"Manager.h"
 	"FelPrincipal.h"
 	"Desert.h"
@@ -91,7 +91,7 @@
 	"Comenzi.h"
 	<iostream>
 
-1652866800 d:\facultate\poo\proiect3_gitrep\proiect_3\include\manager.h
+1652886423 d:\facultate\poo\proiect3_gitrep\proiect_3\include\manager.h
 	"MyArrayList.h"
 	"FelPrincipal.h"
 	"Desert.h"
@@ -108,11 +108,12 @@
 	"FelPrincipal.h"
 	"Ciorba.h"
 
-1652781381 d:\facultate\poo\proiect3_gitrep\proiect_3\include\ciorba.h
+1652886676 d:\facultate\poo\proiect3_gitrep\proiect_3\include\ciorba.h
 	"Ciorba.h"
+	<iostream>
 	<string.h>
 
-1652865391 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\comenzi.cpp
+1652888133 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\comenzi.cpp
 	<iostream>
 	"Comenzi.h"
 	"MyArrayList.h"
@@ -120,9 +121,13 @@
 	"Desert.h"
 	"Ciorba.h"
 
-1652865595 d:\facultate\poo\proiect3_gitrep\proiect_3\include\comenzi.h
+1652887912 d:\facultate\poo\proiect3_gitrep\proiect_3\include\comenzi.h
 	"MyArrayList.h"
 	"FelPrincipal.h"
 	"Desert.h"
 	"Ciorba.h"
+
+1652886682 source:d:\facultate\poo\proiect3_gitrep\proiect_3\src\ciorba.cpp
+	"Ciorba.h"
+	<string.h>
 

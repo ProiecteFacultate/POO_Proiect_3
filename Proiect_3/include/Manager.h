@@ -9,7 +9,7 @@
 class Manager
 {
 private:
-    //  MyArrayList<Ciorba> ciorbaList;
+    MyArrayList<Ciorba> ciorbaList;
     MyArrayList<FelPrincipal> principalList;
     MyArrayList<Desert> desertList;
 
