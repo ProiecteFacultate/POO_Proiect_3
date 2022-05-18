@@ -198,11 +198,15 @@ void MyArrayList<T>::iterate()
 
     while(actualNode->getNextNode() != nullptr)
     {
-        cout<<actualNode->getValue()<<" ";
+        T value = actualNode->getValue();
+        cout<<value<<" ";
+       // cout<<actualNode->getValue()<<" ";
         actualNode = actualNode->getNextNode();
     }
 
-    cout<<actualNode->getValue()<<endl;
+    T value = actualNode->getValue();
+        cout<<value<<" ";
+    //cout<<actualNode->getValue()<<endl;
 }
 
 
@@ -256,4 +260,6 @@ void MyArrayList<T>::copyy(MyArrayList<T>& obj)
 
 template class MyArrayList<int>;
 template class MyArrayList<string>;
-template class MyArrayList<FelPrincipal>;
+template class Node<FelPrincipal>;
+template class Node<Ciorba>;
+template class Node<Desert>;

@@ -23,10 +23,11 @@ int main()
 
     arrayList2.iterate();
 
-    FelPrincipal fp;
-    cin>>fp;
-    cout<<fp;
-
+    FelPrincipal f1;
+    cin>>f1;
+    MyArrayList<FelPrincipal> myArrayList3;
+    myArrayList3.add(f1);
+    myArrayList3.iterate();
 
     return 0;
 }

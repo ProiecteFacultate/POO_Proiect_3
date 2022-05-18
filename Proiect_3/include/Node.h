@@ -1,5 +1,8 @@
 #ifndef NODE_H
 #define NODE_H
+#include "FelPrincipal.h"
+#include "Desert.h"
+#include "Ciorba.h"
 #include<iostream>
 
 template<class T>

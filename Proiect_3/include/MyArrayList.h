@@ -1,6 +1,9 @@
 #ifndef MYARRAYLIST_H
 #define MYARRAYLIST_H
 #include "Node.h"
+#include "FelPrincipal.h"
+#include "Desert.h"
+#include "Ciorba.h"
 #include <iostream>
 
 template<class T>

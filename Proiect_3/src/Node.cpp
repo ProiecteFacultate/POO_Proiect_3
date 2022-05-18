@@ -1,4 +1,8 @@
 #include "Node.h"
+#include "FelPrincipal.h"
+#include "Desert.h"
+#include "Ciorba.h"
+
 
 using namespace std;
 
@@ -64,3 +68,6 @@ T Node<T>::getValue()
 
 template class Node<int>;
 template class Node<string>;
+template class Node<FelPrincipal>;
+template class Node<Ciorba>;
+template class Node<Desert>;
